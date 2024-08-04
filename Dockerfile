@@ -24,5 +24,3 @@ EXPOSE $PORT
 ENV GUNICORN_BIND 0.0.0.0:$PORT
 ENTRYPOINT ["gunicorn"]
 CMD ["--log-level=info", "service:app"]
-
-#git remote set-url origin https://realmoag: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@github.com/RealMoAG/tdd-bdd-final-project.git
